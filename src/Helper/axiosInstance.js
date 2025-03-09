@@ -1,11 +1,11 @@
 import axios from "axios";
 
 
-  const BASE_URL="https://lmsf-98k7.onrender.com/api/v1";
+  const BASE_URL="https://lmsb.onrender.com/api/v1";
 
 const axiosInstance = axios.create({
   baseURL: BASE_URL,
-  withCredentials: true, // Ensures cookies are sent
+  withCredentials: true, // Ensures cookies are senthttps://lmsb.onrender.com
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
